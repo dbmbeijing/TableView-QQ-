@@ -27,8 +27,6 @@
 		CE5A94511BEE464B005B9717 /* buddy_header_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5A94451BEE464B005B9717 /* buddy_header_arrow.png */; };
 		CE5A94521BEE464B005B9717 /* buddy_header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5A94461BEE464B005B9717 /* buddy_header_bg.png */; };
 		CE5A94531BEE464B005B9717 /* buddy_header_bg_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5A94471BEE464B005B9717 /* buddy_header_bg_highlighted.png */; };
-		CE5A94551BEE465E005B9717 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE5A94541BEE465E005B9717 /* friends.plist */; };
-		CE5A94581BEE46EA005B9717 /* FriendGrounpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A94571BEE46EA005B9717 /* FriendGrounpModel.m */; };
 		CE5A945B1BEE4708005B9717 /* FriendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A945A1BEE4708005B9717 /* FriendModel.m */; };
 		CE5A946D1BEE4ADC005B9717 /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A945F1BEE4ADC005B9717 /* MJConst.m */; };
 		CE5A946E1BEE4ADC005B9717 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A94621BEE4ADC005B9717 /* MJFoundation.m */; };
@@ -37,6 +35,8 @@
 		CE5A94711BEE4ADC005B9717 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A94681BEE4ADC005B9717 /* NSObject+MJCoding.m */; };
 		CE5A94721BEE4ADC005B9717 /* NSObject+MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A946A1BEE4ADC005B9717 /* NSObject+MJIvar.m */; };
 		CE5A94731BEE4ADC005B9717 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A946C1BEE4ADC005B9717 /* NSObject+MJKeyValue.m */; };
+		CE5A94761BEE4E0E005B9717 /* FriendGrounpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A94751BEE4E0E005B9717 /* FriendGrounpModel.m */; };
+		CE5A94781BEE518B005B9717 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE5A94771BEE518B005B9717 /* friends.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,9 +85,6 @@
 		CE5A94451BEE464B005B9717 /* buddy_header_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buddy_header_arrow.png; sourceTree = "<group>"; };
 		CE5A94461BEE464B005B9717 /* buddy_header_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buddy_header_bg.png; sourceTree = "<group>"; };
 		CE5A94471BEE464B005B9717 /* buddy_header_bg_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buddy_header_bg_highlighted.png; sourceTree = "<group>"; };
-		CE5A94541BEE465E005B9717 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = friends.plist; path = "QQ-friendlistTests/friends.plist"; sourceTree = SOURCE_ROOT; };
-		CE5A94561BEE46EA005B9717 /* FriendGrounpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendGrounpModel.h; path = ../../FriendGrounpModel.h; sourceTree = "<group>"; };
-		CE5A94571BEE46EA005B9717 /* FriendGrounpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendGrounpModel.m; path = ../../FriendGrounpModel.m; sourceTree = "<group>"; };
 		CE5A94591BEE4708005B9717 /* FriendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendModel.h; sourceTree = "<group>"; };
 		CE5A945A1BEE4708005B9717 /* FriendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendModel.m; sourceTree = "<group>"; };
 		CE5A945E1BEE4ADC005B9717 /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
@@ -105,6 +102,9 @@
 		CE5A946A1BEE4ADC005B9717 /* NSObject+MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJIvar.m"; sourceTree = "<group>"; };
 		CE5A946B1BEE4ADC005B9717 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
 		CE5A946C1BEE4ADC005B9717 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		CE5A94741BEE4E0E005B9717 /* FriendGrounpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendGrounpModel.h; sourceTree = "<group>"; };
+		CE5A94751BEE4E0E005B9717 /* FriendGrounpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendGrounpModel.m; sourceTree = "<group>"; };
+		CE5A94771BEE518B005B9717 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +173,7 @@
 		CE5A94021BEE43C8005B9717 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE5A94541BEE465E005B9717 /* friends.plist */,
+				CE5A94771BEE518B005B9717 /* friends.plist */,
 				CE5A94031BEE43C8005B9717 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -209,10 +209,10 @@
 		CE5A94391BEE44F7005B9717 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CE5A94561BEE46EA005B9717 /* FriendGrounpModel.h */,
-				CE5A94571BEE46EA005B9717 /* FriendGrounpModel.m */,
 				CE5A94591BEE4708005B9717 /* FriendModel.h */,
 				CE5A945A1BEE4708005B9717 /* FriendModel.m */,
+				CE5A94741BEE4E0E005B9717 /* FriendGrounpModel.h */,
+				CE5A94751BEE4E0E005B9717 /* FriendGrounpModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -379,6 +379,7 @@
 			files = (
 				CE5A944B1BEE464B005B9717 /* 004.png in Resources */,
 				CE5A94511BEE464B005B9717 /* buddy_header_arrow.png in Resources */,
+				CE5A94781BEE518B005B9717 /* friends.plist in Resources */,
 				CE5A94121BEE43C8005B9717 /* LaunchScreen.storyboard in Resources */,
 				CE5A944F1BEE464B005B9717 /* 008.png in Resources */,
 				CE5A94501BEE464B005B9717 /* 009.png in Resources */,
@@ -399,7 +400,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5A94551BEE465E005B9717 /* friends.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +427,7 @@
 				CE5A946E1BEE4ADC005B9717 /* MJFoundation.m in Sources */,
 				CE5A94041BEE43C8005B9717 /* main.m in Sources */,
 				CE5A94721BEE4ADC005B9717 /* NSObject+MJIvar.m in Sources */,
+				CE5A94761BEE4E0E005B9717 /* FriendGrounpModel.m in Sources */,
 				CE5A946D1BEE4ADC005B9717 /* MJConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,7 +436,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5A94581BEE46EA005B9717 /* FriendGrounpModel.m in Sources */,
 				CE5A941D1BEE43C8005B9717 /* QQ_friendlistTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,7 +569,6 @@
 		CE5A942D1BEE43C8005B9717 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "QQ-friendlist/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dbm.QQ-friendlist";
@@ -580,7 +579,6 @@
 		CE5A942E1BEE43C8005B9717 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "QQ-friendlist/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dbm.QQ-friendlist";
